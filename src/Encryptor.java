@@ -49,7 +49,6 @@ public class Encryptor {
         } catch (IOException e) {
 
             System.err.println("Виникла помилка під час читання або запису файлу" + e.getMessage());
-
         } finally {
             try {
                 if (inputStream != null) {
