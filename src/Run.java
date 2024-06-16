@@ -5,7 +5,7 @@ public class Run {
 
     public static void run() {
 
-        String filePath = "";
+        String filePath;
         boolean hasEncrypted = false;
 
 
