@@ -4,8 +4,8 @@ import java.io.IOException;
 
 public class Decryptor {
     public static String decryptedByCaesar(String text, int key, String alphabet) {
-               return Encryptor.encryptedByCaesar(text, alphabet.length() - key, alphabet);
-         }
+        return Encryptor.encryptedByCaesar(text, alphabet.length() - key, alphabet);
+    }
 
     public  static  void decryptFile(String filePath, int key, String alphabet){
         FileReader inputStream = null;
